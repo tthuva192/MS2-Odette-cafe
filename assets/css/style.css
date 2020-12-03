@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Open+Sans&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+/*-----------------------------Navbar---------*/
+.navbar-logo {
+    width: 11vw;
+    height: 11vh;
+}
+
+.navbar-logo img {
+    width: 100%;                
+    max-width: 100%;
+
+}
+
+#nav-menu {
+   font-family: "Libre Baskerville" , sans-serif; 
+}
+
+#navbar ul li a {
+  color: black;
+  font-weight: 500;
+  
+}
+
+#navbar ul li a:hover {
+    color: #a8e6ce;
+    border-bottom: 2px solid #ffaaa6; 
+    border-top: 1px solid #ffaaa6; 
+}
+
+#navbar ul li a.current-page {
+    color: #64f5bd;
+}
+
+/*------------------------Media Queries------------*/
+
+@media (max-width: 767.98px) {
+    
+}
