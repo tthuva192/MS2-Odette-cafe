@@ -28,17 +28,39 @@
 }
 
 #navbar ul li a:hover {
-    color: #a8e6ce;
+    color: #cc7077;
     border-bottom: 2px solid #ffaaa6; 
     border-top: 1px solid #ffaaa6; 
 }
 
 #navbar ul li a.current-page {
-    color: #64f5bd;
+    color: #cc7077;
+}
+
+/*-------------------------Footer-----------------*/
+
+.footer {
+ background-color: #a8e6ce;
+ height: 45px;
+}
+
+.social-links {
+    margin-left: 45%;
+    margin-top: 15px;
+}
+
+.social-links li a i {
+    width: 60px;
+    font-size: 23px;
+    color: black;
+}
+
+.social-links li a i:hover {
+    color: #cc7077;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
 /*------------------------Media Queries------------*/
-
-@media (max-width: 767.98px) {
-    
-}
