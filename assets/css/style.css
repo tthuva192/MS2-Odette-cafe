@@ -6,15 +6,17 @@
 }
 
 /*-----------------------------Navbar---------*/
+.navbar {
+    height: 20px;
+}
 .navbar-logo {
-    width: 11vw;
-    height: 11vh;
+    width: 8vw;
+    height: 8vh;
+    margin-top: 24px;
 }
 
-.navbar-logo img {
-    width: 100%;                
+.navbar-logo img {              
     max-width: 100%;
-
 }
 
 #nav-menu {
@@ -23,8 +25,8 @@
 
 #navbar ul li a {
   color: black;
-  font-weight: 500;
-  
+  font-weight: 500; 
+  margin-top:  30px; 
 }
 
 #navbar ul li a:hover {
@@ -35,6 +37,13 @@
 
 #navbar ul li a.current-page {
     color: #cc7077;
+}
+
+/*--------------------------Carousel--------------*/
+
+.carousel-inner,.item, .carousel_image {
+    height: 540px;
+    margin-top: 27px; 
 }
 
 /*-------------------------Footer-----------------*/
@@ -64,3 +73,8 @@
 }
 
 /*------------------------Media Queries------------*/
+
+@media only (min-width: 576px) {
+
+  
+ }

@@ -12,12 +12,12 @@
 	<link rel="stylesheet" href="assets/css/style.css">
 	<title>Cafe Odette</title>
 </head>
-<!--------------------------------Navbar idea from Bootstrap------->
+<!--------------------------------Navbar idea from Bootstrap----------------->
 <body>
 	<header>
 		<nav class="navbar fixed-top navbar-default navbar-light bg navbar-expand-lg" id="navbar">
 			<a class="navbar-logo" href="index.html">
-				<img src="assets/images/Odette_logo.png" alt="Odette_logo">
+				<img src="assets/images/Odette_logo.jpg" alt="Odette_logo">
             </a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                  <span class="navbar-toggler-icon"></span>
@@ -39,10 +39,54 @@
 					</ul>
 				</div>
 		</nav>
-
 	</header>
-	<section>
-	</section>
+<!--------------------------------------------------------------Navbar End----->
+<section>
+    <div class="conatiner-fluid carousel-container">
+        <div class="row">
+            <div class="col">
+                <div id="carouselCaptions" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouseCaptions" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselCaptions" data-slide-to="1"></li>
+                        <li data-target="#carouselCaptions" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item item active">
+                            <img calss="carousel_image" src="assets/images/macaroons.jpg" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>First slide label</h5>
+                                <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item item">
+                            <img src="assets/images/pancakes.png" class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Second slide label</h5>
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item item">
+                            <img src="..." class="d-block w-100" alt="...">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>Third slide label</h5>
+                                <p>Praesent commodo cursus magna, vel scelerisque nisl consectetur.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselCaptions" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselCaptions" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
 
 <footer class="container-fluid footer fixed-bottom">
     <div class="row">
